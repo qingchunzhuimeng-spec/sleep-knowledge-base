@@ -28,6 +28,9 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm install
+      # ⬇️ 显式手动触发链接补全命令
+      - name: Link Plugins
+        run: npm run postinstall
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
