@@ -13,3 +13,5 @@ replit.nix
 quartz/cli/tui/dist/
 
 !.quartz/
+
+.quartz/
