@@ -28,9 +28,11 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm install
-      # ⬇️ 替换为这一行：用 Linux 系统的 ln -s 命令强行建立软链接
+      # ⬇️ 修改这一步：先创建 .quartz 目录，再强行建立软链接
       - name: Force Link Plugins
-        run: ln -s ../plugins .quartz/plugins
+        run: |
+          mkdir -p .quartz
+          ln -s ../plugins .quartz/plugins
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
