@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Pre-build Setup
-        run: npx quartz create -
+        run: node sync-links.js
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
