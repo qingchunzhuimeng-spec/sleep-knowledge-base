@@ -28,13 +28,9 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm install
-      # ⬇️ 修改这一步：先创建 .quartz 目录，再强行建立软链接
-      - name: Force Link Plugins
-        run: |
-          mkdir -p .quartz
-          ln -s ../plugins .quartz/plugins
+      # ⬇️ 核心修改：直接使用 --bundle 参数进行强行打包
       - name: Build Quartz
-        run: npx quartz build
+        run: npx quartz build --bundle
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
