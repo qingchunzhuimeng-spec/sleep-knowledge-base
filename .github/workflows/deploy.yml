@@ -32,14 +32,9 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         
-      - name: Resolve Windows Symlink Conflict
-        run: |
-          rm -rf .quartz
-          mkdir -p .quartz
-          cp -r plugins .quartz/plugins
-          
+      # ⬇️ 删掉刚才报错的 Resolve 步骤，直接在 Build 时加上参数
       - name: Build Quartz
-        run: npx quartz build
+        run: npx quartz build -- --external:../../.quartz/plugins
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
