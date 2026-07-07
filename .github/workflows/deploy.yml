@@ -45,6 +45,10 @@ jobs:
           https://github.com/quartz-community/obsidian-plugin-excalidraw.git \
           .quartz/plugins/obsidian-plugin-excalidraw
 
+          cat > .quartz/plugins/index.ts <<'EOF'
+          export { CustomOgImagesEmitterName } from "./og-image/src/emitter"
+          EOF
+
       - name: Check Quartz Plugins
         run: |
           ls -la .quartz/plugins
