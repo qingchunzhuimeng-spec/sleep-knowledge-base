@@ -32,12 +32,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         
-      # ⬇️ 暴力终结技：直接全量克隆结构，彻底解决所有相对路径找不到的问题
-      - name: Overwrite Mirror Directory
-        run: |
-          rm -rf .quartz
-          mkdir -p .quartz
-          cp -r quartz/* .quartz/
+
           
       - name: Build Quartz
         run: npx quartz build
