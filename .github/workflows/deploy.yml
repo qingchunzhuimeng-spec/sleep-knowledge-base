@@ -23,17 +23,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          
       - name: Install Dependencies
-        run: npm install
-      # ⬇️ 替换为这一行：用 Linux 系统的 ln -s 命令强行建立软链接
-      - name: Force Link Plugins
-        run: ln -s ../plugins .quartz/plugins
+        run: npm ci
+        
+      # ⬇️ 暴力终结技：直接全量克隆结构，彻底解决所有相对路径找不到的问题
+      - name: Overwrite Mirror Directory
+        run: |
+          rm -rf .quartz
+          mkdir -p .quartz
+          cp -r quartz/* .quartz/
+          
       - name: Build Quartz
         run: npx quartz build
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
