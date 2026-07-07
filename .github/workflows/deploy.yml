@@ -18,37 +18,51 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Actions Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 26.4.0
-          
-     - name: Install Dependencies
+          node-version: "26.4.0"
+          cache: npm
+
+      - name: Install Dependencies
         run: npm ci
 
-     - name: Install Quartz plugins
-       run: npm run install-plugins
+      - name: Install Quartz plugins
+        run: npm run install-plugins
 
-     - name: Build Quartz
-       run: npx quartz build
-        
+      - name: Check Quartz Plugins
+        run: |
+          echo "Checking .quartz directory..."
+          ls -la .quartz || true
+          echo "Checking plugins..."
+          ls -la .quartz/plugins || true
+          find .quartz/plugins -maxdepth 2 -type f | head -50 || true
+
+      - name: Build Quartz
+        run: npx quartz build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
+
   deploy:
     needs: build
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
