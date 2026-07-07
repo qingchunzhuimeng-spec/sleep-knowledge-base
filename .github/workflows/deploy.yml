@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - name: Actions Checkout
+     - name: Actions Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -27,10 +27,14 @@ jobs:
         with:
           node-version: 22
       - name: Install Dependencies
-        run: npm install
-      # ⬇️ 核心修改：直接使用 --bundle 参数进行强行打包
+        run: npm ci
+      - name: Resolve Windows Symlink Conflict
+        run: |
+          rm -rf .quartz
+          mkdir -p .quartz
+          cp -r plugins .quartz/plugins
       - name: Build Quartz
-        run: npx quartz build --bundle
+        run: npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
