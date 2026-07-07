@@ -40,6 +40,10 @@ configuration:
         tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
+externalPlugins:
+  - github:quartz-community/og-image
+  - github:quartz-community/obsidian-plugin-excalidraw
+
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
