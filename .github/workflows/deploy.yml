@@ -32,9 +32,15 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         
-      # ⬇️ 删掉刚才报错的 Resolve 步骤，直接在 Build 时加上参数
+      # ⬇️ 这一步从真实的 quartz/plugins 物理复制，百分之百不会找不到目录
+      - name: Resolve Windows Symlink Conflict
+        run: |
+          rm -rf .quartz
+          mkdir -p .quartz
+          cp -r quartz/plugins .quartz/plugins
+          
       - name: Build Quartz
-        run: npx quartz build -- --external:../../.quartz/plugins
+        run: npx quartz build
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
