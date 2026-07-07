@@ -37,9 +37,11 @@ jobs:
           ls -la .quartz || true
           ls -la .quartz/plugins || true
 
-      - name: Install Quartz plugins
+      - name: Prepare Quartz plugins
         run: |
-          npx tsx ./quartz/plugins/loader/install-plugins.ts
+          mkdir -p .quartz/plugins
+          git clone https://github.com/quartz-community/og-image.git .quartz/plugins/og-image
+          git clone https://github.com/quartz-community/obsidian-plugin-excalidraw.git .quartz/plugins/obsidian-plugin-excalidraw
 
       - name: Build Quartz
         run: npx quartz build
