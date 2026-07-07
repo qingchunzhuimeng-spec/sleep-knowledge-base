@@ -32,7 +32,6 @@ jobs:
           cache: npm
       - name: Install Dependencies
         run: npm ci
-
       - name: Install Quartz plugins
         run: |
           mkdir -p .quartz/plugins
@@ -48,6 +47,9 @@ jobs:
           cat > .quartz/plugins/index.ts <<'EOF'
           export { CustomOgImagesEmitterName } from "./og-image/src/emitter"
           EOF
+
+          cd .quartz/plugins/og-image
+          npm install
 
       - name: Check Quartz Plugins
         run: |
