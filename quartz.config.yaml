@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: https://qingchunzhuimeng-spec.github.io/sleep-knowledge-base
+  baseUrl: qingchunzhuimeng-spec.github.io/sleep-knowledge-base
   ignorePatterns:
     - private
     - templates
