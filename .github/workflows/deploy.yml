@@ -49,7 +49,7 @@ jobs:
           export { CustomOgImagesEmitterName } from "./og-image/src/emitter"
           EOF
 
-          npm install satori sharp
+         npm install satori sharp reading-time
 
       - name: Check Quartz Plugins
         run: |
