@@ -31,17 +31,17 @@ jobs:
           
       - name: Install Dependencies
         run: npm ci
-        
+
       - name: Check Quartz Plugins
         run: |
           ls -la .quartz || true
           ls -la .quartz/plugins || true
-          
+
       - name: Install Quartz plugins
-       run: npm run install-plugins
+        run: npm run install-plugins
 
       - name: Build Quartz
-       run: npx quartz build
+        run: npx quartz build
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
