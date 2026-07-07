@@ -30,20 +30,24 @@ jobs:
         with:
           node-version: "26.4.0"
           cache: npm
-
       - name: Install Dependencies
         run: npm ci
 
       - name: Install Quartz plugins
-        run: npm run install-plugins
+        run: |
+          mkdir -p .quartz/plugins
+
+          git clone --depth=1 \
+          https://github.com/quartz-community/og-image.git \
+          .quartz/plugins/og-image
+
+          git clone --depth=1 \
+          https://github.com/quartz-community/obsidian-plugin-excalidraw.git \
+          .quartz/plugins/obsidian-plugin-excalidraw
 
       - name: Check Quartz Plugins
         run: |
-          echo "Checking .quartz directory..."
-          ls -la .quartz || true
-          echo "Checking plugins..."
-          ls -la .quartz/plugins || true
-          find .quartz/plugins -maxdepth 2 -type f | head -50 || true
+          ls -la .quartz/plugins
 
       - name: Build Quartz
         run: npx quartz build
