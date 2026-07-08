@@ -1,6 +1,23 @@
----
-title: Welcome to Quartz
+﻿---
+title: Body OS 健康知识库
+publish: true
+description: 系统化健康知识库,目前以科学睡眠为核心模块,饮食、运动等模块陆续更新
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# Body OS 健康知识库
+
+一个系统化的个人健康知识库,每一条结论都标注机制、数据来源和可执行的行动方法,拒绝"研究表明"这类模糊说法。
+
+## 当前模块
+
+### 🌙 科学睡眠(33个知识点)
+
+覆盖睡眠不足影响、CBT-I失眠疗法、作息锚定、运动光照咖啡因影响、午睡技巧、睡眠与体重管理。
+
+ [进入睡眠知识库](sleep/)
+
+### 🍽️ 饮食(筹备中)
+
+### 💪 运动(筹备中)
+
+### ⚡ 精力管理(筹备中)
