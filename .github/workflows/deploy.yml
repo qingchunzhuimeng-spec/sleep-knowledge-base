@@ -1,4 +1,4 @@
-name: Deploy Quartz site to GitHub Pages
+﻿name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
@@ -33,6 +33,8 @@ jobs:
 
       - name: Install Dependencies
         run: npm ci
+      - name: Install Quartz plugins
+        run: npx quartz plugin install
 
       - name: Build Quartz
         run: npx quartz build
