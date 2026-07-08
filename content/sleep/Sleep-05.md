@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-17
+author: 艾树灵
 description: 生长激素70-80%在入睡后第一个深睡眠阶段分泌，完成肌肉修复和身体重建。
 ---
 

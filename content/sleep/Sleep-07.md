@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-15
+author: 艾树灵
 description: 睡眠时免疫系统全力运作，睡不够6小时感冒概率是睡够7小时者的4倍。
 ---
 

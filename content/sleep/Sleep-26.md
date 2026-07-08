@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-25
+author: 艾树灵
 description: 运动通过加速腺苷、降低皮质醇、拉大体温波动、抑制焦虑循环四个机制改善睡眠。
 ---
 

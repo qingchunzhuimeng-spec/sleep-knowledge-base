@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-16
+author: 艾树灵
 description: REM睡眠在后半夜最集中，负责情绪脱敏、记忆整合和程序性技能巩固。
 ---
 

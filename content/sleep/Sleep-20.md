@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-20
+author: 艾树灵
 description: 躺下脑子停不下来，是DMN和觉醒系统在神经化学层面的恶性循环，无法用意志力直接控制。
 ---
 

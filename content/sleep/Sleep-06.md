@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-15
+author: 艾树灵
 description: 白天学习的内容在睡眠中被从海马体转移到大脑皮层，缺少睡眠巩固就会大量流失。
 ---
 

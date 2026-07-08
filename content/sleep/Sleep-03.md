@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-15
+author: 艾树灵
 description: 生物钟是SCN的分子计时器，每天靠光照校准，协调全身所有细胞的生理节律。
 ---
 

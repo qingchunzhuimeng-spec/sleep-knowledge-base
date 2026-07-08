@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-16
+author: 艾树灵
 description: 睡眠以90分钟为周期循环，在完整周期结束时自然醒，清醒感最好。
 ---
 

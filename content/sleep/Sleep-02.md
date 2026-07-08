@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-13
+author: 艾树灵
 description: 困意来源于腺苷积累到临界浓度，睡着后被清除，醒来精神恢复。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-14
+author: 艾树灵
 description: 睡眠不是大脑关机，而是切换到内部工作模式，负责整理记忆、清除废物、修复细胞。
 ---
 

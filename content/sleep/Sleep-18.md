@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-19
+author: 艾树灵
 description: 酒精通过麻醉让你快速入睡，但破坏深睡眠和REM，没有对睡眠无影响的安全剂量。
 ---
 

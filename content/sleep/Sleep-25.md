@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-24
+author: 艾树灵
 description: 在所有睡眠干预中，固定起床时间是成本最低、效果最持久的单一行动。
 ---
 

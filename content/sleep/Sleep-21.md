@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-20
+author: 艾树灵
 description: 睡前进食通过胰岛素拮抗、产热、血糖波动、消化信号四个路径同时干扰睡眠质量。
 ---
 

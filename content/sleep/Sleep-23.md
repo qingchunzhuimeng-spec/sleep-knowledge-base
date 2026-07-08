@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-22
+author: 艾树灵
 description: 长期睡眠不足在六个系统同时累积不可逆损伤，最危险的是把每晚少睡当成正常生活方式。
 ---
 

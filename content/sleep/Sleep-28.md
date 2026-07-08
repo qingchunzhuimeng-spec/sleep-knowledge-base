@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-26
+author: 艾树灵
 description: 咖啡因半衰期5-7小时，下午2点的咖啡到晚上还有一半在干扰深睡眠，且你完全感觉不到。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-18
+author: 艾树灵
 description: 核心体温下降到特定阈值才能启动睡眠，手脚变暖正是核心降温的信号。
 ---
 

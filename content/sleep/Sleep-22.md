@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-21
+author: 艾树灵
 description: 白天学的东西只是海马体的临时缓存，睡眠期间才会转移到大脑皮层形成长期记忆。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-19
+author: 艾树灵
 description: 睡眠时间足够但不规律，对生物钟的破坏与睡眠不足同样严重，这就是社交时差。
 ---
 

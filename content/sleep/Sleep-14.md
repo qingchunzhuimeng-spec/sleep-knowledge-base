@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-18
+author: 艾树灵
 description: 压力升高皮质醇直接抑制褪黑素分泌，这是越累越睡不着的生化机制。
 ---
 

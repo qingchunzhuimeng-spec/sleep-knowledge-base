@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-16
+author: 艾树灵
 description: 深睡眠以慢波振荡驱动生长激素分泌、废物清除、记忆巩固等六大身体修复工作。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-26
+author: 艾树灵
 description: 不困不上床是睡眠系统的基础保护机制，床上清醒的每一分钟都在强化床和焦虑的条件反射。
 ---
 

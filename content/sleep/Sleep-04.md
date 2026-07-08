@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-16
+author: 艾树灵
 description: 类淋巴系统只在睡眠中全速清除代谢废物，清醒时几乎停止运转。
 ---
 

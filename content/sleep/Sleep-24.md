@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-23
+author: 艾树灵
 description: 提高深睡眠质量的所有方法，都指向同一个目标——让身体具备进入深睡眠的条件。
 ---
 

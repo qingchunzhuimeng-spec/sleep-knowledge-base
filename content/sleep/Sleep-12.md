@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-17
+author: 艾树灵
 description: 真正决定恢复质量的是深睡眠比例和慢波振荡幅度，不是睡眠总小时数。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-27
+author: 艾树灵
 description: 固定睡前程序通过条件反射让神经系统自动从觉醒切换到睡眠，不需要每晚重新努力入睡。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-17
+author: 艾树灵
 description: 睡眠债分功能性债务和结构性债务，结构性损伤一旦积累无法逆转。
 ---
 

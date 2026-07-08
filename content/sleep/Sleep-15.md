@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-18
+author: 艾树灵
 description: 蓝光通过五节点信号链抑制褪黑素分泌，让大脑在夜间误以为还是白天。
 ---
 

@@ -4,6 +4,7 @@ publish: true
 tags:
   - 科学睡眠
 date: 2026-06-25
+author: 艾树灵
 description: 早晨光照通过视网膜直接校准SCN，15-30分钟内完成当天生物钟复位，决定当晚入睡质量。
 ---
 
