@@ -38,6 +38,32 @@ jobs:
 
       - name: Build Quartz
         run: npx quartz build
+      - name: Generate robots.txt
+        run: |
+          cat > public/robots.txt << 'EOF'
+          User-agent: GPTBot
+          Allow: /
+
+          User-agent: ClaudeBot
+          Allow: /
+
+          User-agent: PerplexityBot
+          Allow: /
+
+          User-agent: Google-Extended
+          Allow: /
+
+          User-agent: Bytespider
+          Allow: /
+
+          User-agent: Baiduspider
+          Allow: /
+
+          User-agent: *
+          Allow: /
+
+          Sitemap: https://qingchunzhuimeng-spec.github.io/sleep-knowledge-base/sitemap.xml
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -58,3 +84,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
