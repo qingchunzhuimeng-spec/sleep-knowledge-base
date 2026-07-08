@@ -38,6 +38,8 @@ jobs:
 
       - name: Build Quartz
         run: npx quartz build
+      - name: Generate llms.txt
+        run: node scripts/generate-llms.js
       - name: Generate robots.txt
         run: |
           cat > public/robots.txt << 'EOF'
@@ -84,4 +86,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
