@@ -8,12 +8,6 @@ author: 艾树灵
 description: 咖啡因半衰期5-7小时，下午喝的咖啡到晚上还有一半在占据腺苷受体，降低深睡眠质量。
 ---
 
-module: 02-sleep
-lesson: Sleep-17
-status: 已发布
-review_stage: d0
-next_review: 
-
 # Sleep-17 咖啡因——半衰期5-7小时，下午几点喝影响夜间睡眠
 
 ## 核心结论

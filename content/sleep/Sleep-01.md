@@ -8,20 +8,6 @@ author: 艾树灵
 description: 睡眠不是大脑关机，而是切换到内部工作模式，负责整理记忆、清除废物、修复细胞。
 ---
 
-date: 2026-06-14
-source: 自我总结
-topic: 睡眠科学
-tags: [sleep, glymphatic, deep-sleep, REM, body-optimization]
-core: 睡眠不是大脑关机，而是切换到内部工作模式——清醒时处理外部信息，睡眠时整理记忆、清除废物、修复细胞。
-actions:
-  - 坚持11点前入睡，保证前半夜深睡眠窗口
-  - 目标7-8小时，不超过9小时
-module: 02-sleep
-lesson: Sleep-01
-status: 已发布
-review_stage: d0
-next_review: 
-
 # Sleep-01 睡眠不是休息，是主动工作
 
 ## 核心结论

@@ -8,12 +8,6 @@ author: 艾树灵
 description: 蓝光通过五节点信号链抑制褪黑素分泌，让大脑在夜间误以为还是白天。
 ---
 
-module: 02-sleep
-lesson: Sleep-15
-status: 已发布
-review_stage: d0
-next_review: 
-
 # Sleep-15 蓝光——从视网膜到松果体，褪黑素被抑制的信号链
 
 ## 核心结论
