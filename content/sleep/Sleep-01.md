@@ -1,4 +1,13 @@
 ---
+title: 睡觉时大脑真的在关机休息吗？
+publish: true
+tags:
+  - 科学睡眠
+date: 2026-06-14
+author: 艾树灵
+description: 睡眠不是大脑关机，而是切换到内部工作模式，负责整理记忆、清除废物、修复细胞。
+---
+
 date: 2026-06-14
 source: 自我总结
 topic: 睡眠科学
@@ -12,7 +21,6 @@ lesson: Sleep-01
 status: 已发布
 review_stage: d0
 next_review: 
----
 
 # Sleep-01 睡眠不是休息，是主动工作
 

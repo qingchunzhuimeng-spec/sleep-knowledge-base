@@ -1,10 +1,18 @@
 ---
+title: 下午几点喝咖啡会影响当晚睡眠？
+publish: true
+tags:
+  - 科学睡眠
+date: 2026-06-19
+author: 艾树灵
+description: 咖啡因半衰期5-7小时，下午喝的咖啡到晚上还有一半在占据腺苷受体，降低深睡眠质量。
+---
+
 module: 02-sleep
 lesson: Sleep-17
 status: 已发布
 review_stage: d0
 next_review: 
----
 
 # Sleep-17 咖啡因——半衰期5-7小时，下午几点喝影响夜间睡眠
 
