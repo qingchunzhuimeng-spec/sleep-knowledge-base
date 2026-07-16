@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npx quartz build",
+  "outputDirectory": "public",
+  "framework": null,
+  "installCommand": "npm ci",
+  "github": {
+    "silent": true
+  }
+}

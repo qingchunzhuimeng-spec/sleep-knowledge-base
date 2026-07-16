@@ -38,6 +38,8 @@ jobs:
 
       - name: Build Quartz
         run: npx quartz build
+      - name: Inject Baidu Analytics
+        run: node scripts/inject-analytics.js
       - name: Generate llms.txt
         run: node scripts/generate-llms.js
       - name: Generate robots.txt
@@ -86,5 +88,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+
 
 
