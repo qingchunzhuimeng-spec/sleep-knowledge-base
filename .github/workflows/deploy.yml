@@ -39,7 +39,8 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
       - name: Generate Google verification file
-        run: echo "google-site-verification: googlecfc8f22db189028b.html" > public/googlecfc8f22db189028b.html
+        run: |
+          echo "google-site-verification: googlecfc8f22db189028b.html" > public/googlecfc8f22db189028b.html
       - name: Inject Baidu Analytics
         run: node scripts/inject-analytics.js
       - name: Generate llms.txt
@@ -90,6 +91,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 
 
